@@ -74,6 +74,7 @@ const RandomUserTable = () => {
 
   return (
     <Table
+      data-testid="tableRandomUser"
       columns={columnsRandomUser}
       dataSource={data}
       loading={loading}

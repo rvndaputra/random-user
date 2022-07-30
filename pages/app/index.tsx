@@ -2,8 +2,8 @@ import { Breadcrumb, Space, Typography } from "antd";
 import "antd/dist/antd.css";
 import { useRouter } from "next/router";
 import React, { Fragment } from "react";
-import Filter from "./components/Filter";
-import RandomUserTable from "./components/RandomUserTable";
+import Filter from "../../components/Filter";
+import RandomUserTable from "../../components/RandomUserTable";
 import * as css from "./styles";
 
 const { Title } = Typography;

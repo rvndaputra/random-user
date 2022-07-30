@@ -38,6 +38,7 @@ const Filter = () => {
 
   return (
     <Form
+      data-testid="formRandomUserFilter"
       form={form}
       layout="inline"
       name="horizontal_login"
