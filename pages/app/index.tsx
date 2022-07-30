@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React, { Fragment } from "react";
 import Filter from "../../components/Filter";
 import RandomUserTable from "../../components/RandomUserTable";
-import * as css from "./styles";
+import * as css from "../../styles/pages/app/styles";
 
 const { Title } = Typography;
 
